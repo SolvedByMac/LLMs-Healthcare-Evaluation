@@ -42,7 +42,7 @@ This project benchmarks commercial LLMs on real-world patient queries using a hy
 LLMs-Healthcare-Evaluation/
 ├── MedicalLLM_Evaluation_Pipeline.ipynb   # End-to-end pipeline
 ├── Results_Visualizer.ipynb               # Metrics visualisation
-├── capstone_results.csv                   # Final metric scores
+├── Results.csv                   # Final metric scores
 ├── sample_responses.csv                   # Input queries
 ├── requirements.txt                       # Dependencies
 └── Trials/                                # Prior metric experiments
@@ -74,7 +74,7 @@ DEEPSEEK_API_KEY=your_key_here
 5. Synthesises a pseudo-gold document using GPT-4
 6. Generates responses from GPT-3.5, Claude, and DeepSeek via LangChain
 7. Scores each response across 6 metrics using GPT-4 as judge
-8. Outputs structured results to `capstone_results.csv`
+8. Outputs structured results to `Results.csv`
 
 ## Prerequisites
 
